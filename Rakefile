@@ -43,11 +43,8 @@ class Organization
   end
 end
 
-MESH_APP_ID = "5760566c33a42d0001ee5711"
-MESH_AUTH_TOKEN = "Z9VPo07aJuGtp7o5SBTGWLTJ7n9KHaqn_eOvnXoiOnRvF9ypl2Ag7J8cPTEVMHb53ImLG1c6YQG8xynZ6YyJiSRMTKNap3cmA"
-
-LOCAL_APP_ID = "57607301791e4b58f3093ce4"
-LOCAL_AUTH_TOKEN = "n6HkoK7v7UhnQEpc9PaB96zYKMTqCtb4_9w7QIkScFgaEqyTO0maPMuygNKclqx1gj31CaB0jGAqoCWYUlp4jyGviOb2gJrgE"
+MESH_APP_ID = ""
+MESH_AUTH_TOKEN = ""
 
 namespace :new do
   desc "Creates a new organization with the Mesh REST API"
